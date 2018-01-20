@@ -1,31 +1,82 @@
 body {
-  margin:100px
+  margin:100px;
+  font-family: sans-serif
 }
-h2 {
-  text-align: left;
-  font-size: 20px;
+
+figure {
+float: left;
+ margin: -20px;
+}
+/* Fix negitive isn't best practice will f stuff up */
+figcaption {
   font-family: cursive;
-  margin: 0px;
+  float: left;
+  font-size: 24px;
+  margin: -27px 24px;
 }
+
 header p {
-  font-size: 10px;
-  margin: 0px;
+  margin: 27px;
+  font-size: 15px;
   color: rgba(136, 135, 135, 0.979);
+  
 }
+nav  {
+float: right;
+margin-top: -40px;
+}
+
+header {
+  position: inherit; 
+  border: 0px;
+  border-bottom: 20px;
+  border-style: solid;
+  border-color: grey;
+  margin: 20px;
+}
+span {
+  float: right;
+}
+
 h1 {
   text-align: left;
-  font-family: sans-serif;
   font-size: 30px;
+  margin-bottom: 0px;
 }
 h4 {
-  font-size: 10px
+  font-size: 10px;
+  margin-top: 0px;
 }
 p {
   font-size: 15px;
   color: rgba(136, 135, 135, 0.979);
 }
+main div {
+  background-image: url(img/list-bg.png); 
+  list-style-type:square;
+  height: 300px;
+  width: 900px;
+  line-height: 2;
+}
+ul {
+  float: left;
+  margin: 35px 15px;
+}
+
+button { 
+  float: right;
+  width: 120px;
+  height: 30px;
+  color: white;
+  background: rgb(191, 110, 93);
+  }
+   
 footer {
   text-align: center;
   color: rgba(136, 135, 135, 0.979);
   font-size: 5pt;
-};
+}
+
+footer img {
+display:inline-block
+}
