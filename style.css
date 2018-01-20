@@ -2,10 +2,17 @@ body {
   margin:100px;
   font-family: sans-serif
 }
-figcaption {
+header {
+  border: 0px;
+  border-bottom: 20px;
+  border-style: solid;
+  border-color: grey;
+
+}
+header caption {
+  font-family: cursive;
   float: right;
   font-size: 20px;
-  font-family: cursive;
   margin: 0px;
 }
 header p {
@@ -13,8 +20,9 @@ header p {
   margin: 0px;
   color: rgba(136, 135, 135, 0.979);
 }
-nav span {
+nav  {
 float: right;
+margin-top: -40px;
 }
 h1 {
   text-align: left;
@@ -29,14 +37,30 @@ p {
   font-size: 15px;
   color: rgba(136, 135, 135, 0.979);
 }
-ul {
+main div {
   background-image: url(img/list-bg.png); 
+  list-style-type:square;
+  height: 300px;
+  width: 900px;
+  line-height: 2;
+}
+ul {
+  float: left;
+  margin: 35px 15px;
 }
 
+button { 
+  float: right;
+  width: 120px;
+  height: 30px;
+  color: white;
+  background: rgb(191, 110, 93);
+  border
+  }
+   
 footer {
   text-align: center;
   color: rgba(136, 135, 135, 0.979);
   font-size: 5pt;
 };
 
- 
