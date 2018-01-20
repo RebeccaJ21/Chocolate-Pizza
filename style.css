@@ -2,28 +2,42 @@ body {
   margin:100px;
   font-family: sans-serif
 }
-header {
-  border: 0px;
-  border-bottom: 20px;
-  border-style: solid;
-  border-color: grey;
 
+figure {
+float: left;
+ margin: -20px;
 }
-header caption {
+/* Fix negitive isn't best practice will f stuff up */
+figcaption {
   font-family: cursive;
-  float: right;
-  font-size: 20px;
-  margin: 0px;
+  float: left;
+  font-size: 24px;
+  margin: -27px 24px;
 }
+
 header p {
-  font-size: 10px;
-  margin: 0px;
+  margin: 27px;
+  font-size: 15px;
   color: rgba(136, 135, 135, 0.979);
+  
 }
 nav  {
 float: right;
 margin-top: -40px;
 }
+
+header {
+  position: inherit; 
+  border: 0px;
+  border-bottom: 20px;
+  border-style: solid;
+  border-color: grey;
+  margin: 20px;
+}
+span {
+  float: right;
+}
+
 h1 {
   text-align: left;
   font-size: 30px;
@@ -55,12 +69,14 @@ button {
   height: 30px;
   color: white;
   background: rgb(191, 110, 93);
-  border
   }
    
 footer {
   text-align: center;
   color: rgba(136, 135, 135, 0.979);
   font-size: 5pt;
-};
+}
 
+footer img {
+display:inline-block
+}
